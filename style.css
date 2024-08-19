@@ -1,0 +1,276 @@
+/* style.css */
+body {
+  font-family: "Cera Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Загальні стилі для всіх секцій */
+header,
+main,
+section,
+footer {
+  padding: 20px;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+}
+
+.header .bar {
+  display: flex;
+  align-items: center;
+}
+
+.header .first img.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header .middle nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.header .middle nav a.active {
+  color: #4caf50;
+}
+
+.header .last .loginbutton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.header .last .loginbutton img.login-icon {
+  margin-right: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+/* Main Content Section from Project 1 */
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.content-section .text-part {
+  max-width: 50%;
+}
+
+.content-section .text1 {
+  font-weight: 900;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.content-section .text2 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.content-section .text2 .wordcolorgreen {
+  color: #4caf50;
+}
+
+.content-section .text3 {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.content-section .shopnow {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.content-section .image-part img {
+  max-width: 100%;
+}
+
+/* Content Section from Project 2 */
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.container .left-side,
+.container .right-side {
+  width: 48%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .left-side img,
+.container .right-side img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.container .text-content {
+  text-align: center;
+}
+
+.container .text-content h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.container .text-content p.GrayTextP {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.container .text-content button.FindMore {
+  background-color: transparent;
+  border: none;
+  color: #4caf50;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.container .text-content button.FindMore img {
+  margin-left: 5px;
+}
+
+/* Blog Section */
+.OtherInfo {
+  padding: 40px 20px;
+}
+
+.OtherInfo .ContainerOtherInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.OtherInfo .ContainerOtherInfo div {
+  width: 48%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.OtherInfo .ContainerOtherInfo img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.OtherInfo .GreenTextP {
+  color: #4caf50;
+  margin-bottom: 5px;
+}
+
+.OtherInfo .GrayTexth2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.OtherInfo .GrayTextP {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.footer-top,
+.footer-center,
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-top .footer-service,
+.footer-center .footer-content,
+.footer-links ul {
+  width: 23%;
+  margin-bottom: 20px;
+}
+
+.footer-top .newsletter form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer-top .newsletter form input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-right: none;
+}
+
+.footer-top .newsletter form button {
+  width: 30%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+.footer-center .footer-content .footer-green img.footer-logo {
+  width: 100px;
+}
+
+.footer-center .footer-content .footer-item {
+  margin-bottom: 10px;
+}
+
+.footer-bottom .footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-bottom .footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom .footer-links ul li h3 {
+  margin-bottom: 10px;
+}
+
+.footer-bottom .footer-links ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-bottom .footer-links ul li a:hover {
+  color: #4caf50;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  color: #666;
+}
